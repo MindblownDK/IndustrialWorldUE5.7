@@ -12,6 +12,7 @@
 
 When building or modifying features for this project, always adhere to our three core execution pillars:
 
+```
 ┌─────────────────────────────────────────────────────────────────┐
 │                       INDUSTRIAL WORLD                          │
 ├───────────────────┬───────────────────────┬─────────────────────┤
@@ -19,6 +20,7 @@ When building or modifying features for this project, always adhere to our three
 │ Lean code systems │ Minimalist HUD & UIs  │ Micro-interactions  │
 │ Modular design    │ High-contrast layouts │ Absolute completeness│
 └───────────────────┴───────────────────────┴─────────────────────┘
+```
 
 1. **Simplicity First:** Code architecture must be clean, highly decoupled, and easily readable. Game mechanics should be intuitive but possess deep systemic emergence. Avoid over-engineering.
 2. **Sleek & Pretty Visuals:** UIs must feature plenty of breathing room (negative space), elegant typography, smooth transitions, and monochromatic/muted corporate-industrial color palettes accented with subtle glowing indicators.
@@ -55,6 +57,7 @@ Our UI is **not** a traditional cluttered industrial spreadsheet. It is closer t
 
 When tasked to build a feature or fix a bug in `IndustrialWorld`, execute the following loop:
 
+```
   [1] ANALYZE   ──> Review current systems, dependencies, and scene hierarchy.
        │
   [2] MINIMIZE  ──> Strip out unnecessary steps. Design the cleanest code possible.
@@ -62,6 +65,7 @@ When tasked to build a feature or fix a bug in `IndustrialWorld`, execute the fo
   [3] BEAUTIFY  ──> Ensure visual feedback, UI styling, and animations look pristine.
        │
   [4] HARDEN    ──> Add robust error handling, null-checks, and performance validation.
+```
 
   1. **Analyze Requirements:** Understand how the feature interacts with existing world-state subsystems and the global GameState.
 2. **Design For Simplicity:** Keep data structures simple. Use `UDataAsset` for configuration and data-driven designs wherever applicable.
